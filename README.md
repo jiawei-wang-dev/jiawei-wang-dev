@@ -34,39 +34,43 @@
 <sub>01 · DISTRIBUTED BACKEND</sub>
 <h3><a href="https://github.com/jiawei-wang-dev/relayim-go">RelayIM-Go</a></h3>
 
-<strong>Distributed real-time messaging backend</strong>
+<p><strong>Distributed real-time messaging backend</strong></p>
 
-<br><br>
+<p><code>Go</code> <code>Kafka</code> <code>Redis Stream</code> <code>WebSocket</code></p>
 
-<code>Go</code> <code>Kafka</code> <code>Redis Stream</code> <code>WebSocket</code>
+<sub><strong>CORE DESIGN</strong></sub>
 
-<br><br>
+<ul>
+<li>Multi-node WebSocket routing with etcd + Redis leases</li>
+<li>Kafka Store / Route groups + Redis Stream recovery</li>
+</ul>
 
-Multi-node messaging · At-least-once &amp; idempotency · Offline recovery
+<sub><strong>RELIABILITY</strong></sub>
 
-<br><br>
+<p>Idempotency · ACK semantics · Offline recovery · Fault testing</p>
 
-<a href="https://github.com/jiawei-wang-dev/relayim-go">Repository →</a>&nbsp;&nbsp;
-<a href="https://github.com/jiawei-wang-dev/relayim-go/blob/main/docs/ARCHITECTURE.md">Architecture →</a>
+<p><a href="https://github.com/jiawei-wang-dev/relayim-go">Repository →</a>&nbsp;·&nbsp;<a href="https://github.com/jiawei-wang-dev/relayim-go/blob/main/docs/ARCHITECTURE.md">Architecture →</a></p>
 </td>
 <td width="50%" valign="top">
 <sub>02 · AGENT ENGINEERING</sub>
 <h3><a href="https://github.com/jiawei-wang-dev/WatchOps-Lite">WatchOps-Lite</a></h3>
 
-<strong>Evidence-driven OnCall troubleshooting Agent</strong>
+<p><strong>Evidence-driven OnCall troubleshooting Agent</strong></p>
 
-<br><br>
+<p><code>Go</code> <code>Eino</code> <code>RAG</code> <code>Tool Calling</code></p>
 
-<code>Go</code> <code>Eino</code> <code>RAG</code> <code>Tool Calling</code>
+<sub><strong>CORE DESIGN</strong></sub>
 
-<br><br>
+<ul>
+<li>Turn Governance + controlled ReAct runtime</li>
+<li>Hybrid RAG + evidence-bound diagnosis</li>
+</ul>
 
-Agent Harness · Evidence Grounding · Evaluation
+<sub><strong>QUALITY</strong></sub>
 
-<br><br>
+<p>Agent Harness · Multi-Agent · Evaluation · Replay</p>
 
-<a href="https://github.com/jiawei-wang-dev/WatchOps-Lite">Repository →</a>&nbsp;&nbsp;
-<a href="https://github.com/jiawei-wang-dev/WatchOps-Lite#architecture">Architecture →</a>
+<p><a href="https://github.com/jiawei-wang-dev/WatchOps-Lite">Repository →</a>&nbsp;·&nbsp;<a href="https://github.com/jiawei-wang-dev/WatchOps-Lite#architecture">Architecture →</a></p>
 </td>
 </tr>
 </table>
@@ -74,7 +78,7 @@ Agent Harness · Evidence Grounding · Evaluation
 ## 02 — Stack
 
 **Backend** — `Go` · `go-zero` · `Gin` · `gRPC` · `WebSocket`<br>
-**Data & Messaging** — `MySQL` · `Redis` · `Kafka` · `Elasticsearch` · `etcd`<br>
+**Data & Messaging** — `MySQL` · `Redis` · `Kafka` · `Redis Stream` · `Elasticsearch` · `etcd`<br>
 **AI Agent** — `Eino` · `RAG` · `Tool Calling` · `Multi-Agent` · `Evaluation`<br>
 **Observability** — `Prometheus` · `Grafana` · `OpenTelemetry` · `Jaeger`
 
