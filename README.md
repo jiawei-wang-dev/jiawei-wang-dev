@@ -40,14 +40,13 @@
 
 <sub><strong>CORE DESIGN</strong></sub>
 
-<ul>
-<li>Multi-node WebSocket routing with etcd + Redis leases</li>
-<li>Kafka Store / Route groups + Redis Stream recovery</li>
-</ul>
+<p><small>• Multi-node WebSocket routing with etcd + Redis leases<br>
+• Kafka Store / Route groups + Redis Stream recovery
+</small></p>
 
 <sub><strong>RELIABILITY</strong></sub>
 
-<p>Idempotency · ACK semantics · Offline recovery · Fault testing</p>
+<p><small>Idempotency · ACK semantics · Offline recovery · Fault testing</small></p>
 
 <p><a href="https://github.com/jiawei-wang-dev/relayim-go">Repository →</a>&nbsp;·&nbsp;<a href="https://github.com/jiawei-wang-dev/relayim-go/blob/main/docs/ARCHITECTURE.md">Architecture →</a></p>
 </td>
@@ -61,14 +60,13 @@
 
 <sub><strong>CORE DESIGN</strong></sub>
 
-<ul>
-<li>Turn Governance + controlled ReAct runtime</li>
-<li>Hybrid RAG + evidence-bound diagnosis</li>
-</ul>
+<p><small>• Turn Governance + controlled ReAct runtime<br>
+• Hybrid RAG + evidence-bound diagnosis
+</small></p>
 
 <sub><strong>QUALITY</strong></sub>
 
-<p>Agent Harness · Multi-Agent · Evaluation · Replay</p>
+<p><small>Agent Harness · Multi-Agent · Evaluation · Replay</small></p>
 
 <p><a href="https://github.com/jiawei-wang-dev/WatchOps-Lite">Repository →</a>&nbsp;·&nbsp;<a href="https://github.com/jiawei-wang-dev/WatchOps-Lite#architecture">Architecture →</a></p>
 </td>
