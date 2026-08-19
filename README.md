@@ -1,60 +1,89 @@
-<div align="center">
+<p align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="./assets/profile-header-dark.svg"
+    >
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="./assets/profile-header-light.svg"
+    >
+    <img
+      alt="Jiawei Wang — Go Backend &amp; AI Agent Engineering"
+      src="./assets/profile-header-light.svg"
+      width="100%"
+    >
+  </picture>
+</p>
 
-<h1>Jiawei Wang</h1>
+<p align="center">Master of IT @ Monash University</p>
 
-<p><strong>Go Backend · AI Agent Engineering</strong></p>
-
-<p>Master of IT @ Monash University</p>
-
-<p>Building reliable distributed systems and controllable AI Agents.</p>
-
-</div>
+<p align="center">
+  <code>Go Backend</code>&nbsp;&nbsp;
+  <code>Distributed Systems</code>&nbsp;&nbsp;
+  <code>AI Agent</code>
+</p>
 
 ---
 
-## Featured Projects
+## 01 — Featured Projects
 
 <table>
 <tr>
-
 <td width="50%" valign="top">
+<sub>01 · DISTRIBUTED BACKEND</sub>
+<h3><a href="https://github.com/jiawei-wang-dev/relayim-go">RelayIM-Go</a></h3>
 
-<h3>RelayIM-Go</h3>
+<strong>Distributed real-time messaging backend</strong>
 
-<p><strong>Distributed real-time messaging backend</strong></p>
+<br><br>
 
-<p><code>Go</code> · <code>go-zero</code> · <code>WebSocket</code> · <code>Kafka</code> · <code>Redis Stream</code></p>
+<code>Go</code> <code>Kafka</code> <code>Redis Stream</code> <code>WebSocket</code>
 
-<p>Multi-node messaging · At-least-once &amp; idempotency · Offline recovery</p>
+<br><br>
 
-<p><a href="https://github.com/jiawei-wang-dev/relayim-go">Repository →</a> · <a href="https://github.com/jiawei-wang-dev/relayim-go/blob/main/docs/ARCHITECTURE.md">Architecture →</a></p>
+Multi-node messaging · At-least-once &amp; idempotency · Offline recovery
 
+<br><br>
+
+<a href="https://github.com/jiawei-wang-dev/relayim-go">Repository →</a>&nbsp;&nbsp;
+<a href="https://github.com/jiawei-wang-dev/relayim-go/blob/main/docs/ARCHITECTURE.md">Architecture →</a>
 </td>
-
 <td width="50%" valign="top">
+<sub>02 · AGENT ENGINEERING</sub>
+<h3><a href="https://github.com/jiawei-wang-dev/WatchOps-Lite">WatchOps-Lite</a></h3>
 
-<h3>WatchOps-Lite</h3>
+<strong>Evidence-driven OnCall troubleshooting Agent</strong>
 
-<p><strong>Evidence-driven OnCall troubleshooting Agent</strong></p>
+<br><br>
 
-<p><code>Go</code> · <code>Eino</code> · <code>RAG</code> · <code>Tool Calling</code> · <code>Multi-Agent</code></p>
+<code>Go</code> <code>Eino</code> <code>RAG</code> <code>Tool Calling</code>
 
-<p>Agent Harness · Evidence Grounding · Evaluation</p>
+<br><br>
 
-<p><a href="https://github.com/jiawei-wang-dev/WatchOps-Lite">Repository →</a> · <a href="https://github.com/jiawei-wang-dev/WatchOps-Lite#architecture">Architecture →</a></p>
+Agent Harness · Evidence Grounding · Evaluation
 
+<br><br>
+
+<a href="https://github.com/jiawei-wang-dev/WatchOps-Lite">Repository →</a>&nbsp;&nbsp;
+<a href="https://github.com/jiawei-wang-dev/WatchOps-Lite#architecture">Architecture →</a>
 </td>
-
 </tr>
 </table>
 
-## Stack
+## 02 — Stack
 
-**Backend** — Go · go-zero · Gin · gRPC · WebSocket<br>
-**Data & Messaging** — MySQL · Redis · Kafka · Elasticsearch · etcd<br>
-**AI Agent** — Eino · RAG · Tool Calling · Multi-Agent · Evaluation<br>
-**Observability** — Prometheus · Grafana · OpenTelemetry · Jaeger
+**Backend** — `Go` · `go-zero` · `Gin` · `gRPC` · `WebSocket`<br>
+**Data & Messaging** — `MySQL` · `Redis` · `Kafka` · `Elasticsearch` · `etcd`<br>
+**AI Agent** — `Eino` · `RAG` · `Tool Calling` · `Multi-Agent` · `Evaluation`<br>
+**Observability** — `Prometheus` · `Grafana` · `OpenTelemetry` · `Jaeger`
 
-## Contact
+<br>
 
-[jwan0624@student.monash.edu](mailto:jwan0624@student.monash.edu) · [GitHub](https://github.com/jiawei-wang-dev)
+<p align="center">
+  <sub>Reliable Systems · Controllable Agents · Observable Execution</sub>
+</p>
+
+## 03 — Contact
+
+[Email](mailto:jwan0624@student.monash.edu) · [GitHub](https://github.com/jiawei-wang-dev)
